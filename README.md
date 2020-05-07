@@ -22,11 +22,10 @@ Obsidian follows a simple structure that allows easy management.
  .
  |__ obsidian
  |__ shards
- |	 |__ accounts
- |		 |__ accounts.toml
+ |   |__ accounts.toml
  |__ .diff
- |	 |_ accounts
- |		|_ accounts.toml
+ |   |_ accounts.toml
+ |
  | settings.toml
  | obsidian.js
  ```

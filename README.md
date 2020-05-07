@@ -18,16 +18,18 @@ You can create your own shards with the help of Pulumi.
 
 Obsidian follows a simple structure that allows easy management.
 
+```
  .
- |-> obsidian/
- |-> shards/
- |		|-> accounts/
- |				|-> accounts.toml
- |-> .diff/
- |		|-> accounts/
- |				|-> accounts.toml
+ |__ obsidian
+ |__ shards
+ |	 |__ accounts
+ |		 |__ accounts.toml
+ |__ .diff
+ |	 |_ accounts
+ |		|_ accounts.toml
  | settings.toml
  | obsidian.js
+ ```
 
 **obsidian** contains the code for obsidian.
 **shards** contains the shards with their configurations.

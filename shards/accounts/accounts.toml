@@ -1,0 +1,18 @@
+# An example accounts shard configuration.
+
+[defaults]
+policy = "restricted-ec2-user-policy.json"
+
+[accounts]
+
+  [accounts.martin]
+  username = "martin"
+  group = "admins"
+  policy = "global-admin"
+  description = "A global-admin obsidian generated user."
+
+  [accounts.demo]
+  username = "demo"
+  group = "devs"
+  policy = "restricted-ec2-user-policy.json"
+  description = "A demo obsidian generated restricted user."

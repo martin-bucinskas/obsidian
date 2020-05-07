@@ -22,9 +22,15 @@ Obsidian follows a simple structure that allows easy management.
  .
  |__ obsidian
  |__ shards
- |   |__ accounts.toml
+ |   |__ accounts
+ |       |__ accounts.toml
+ |       |__ resources
+ |           |__ some_resource.json
  |__ .diff
- |   |_ accounts.toml
+ |   |_ accounts
+ |      |__ accounts.toml.diff
+ |      |__ resources
+ |          |__ some_resource.json.diff
  |
  | settings.toml
  | obsidian.js

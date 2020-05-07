@@ -1,0 +1,9 @@
+{
+  "name": "obsidian",
+  "version": "1.0.0",
+  "description": "Not your common infrastructure management tool.",
+  "main": "obsidian.js",
+  "repository": "https://github.com/martin-bucinskas/obsidian",
+  "author": "Martin Bucinskas",
+  "license": "GNU GPLv3 "
+}

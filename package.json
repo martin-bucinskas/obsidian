@@ -5,5 +5,9 @@
   "main": "obsidian.js",
   "repository": "https://github.com/martin-bucinskas/obsidian",
   "author": "Martin Bucinskas",
-  "license": "GNU GPLv3 "
+  "license": "GNU GPLv3 ",
+  "dependencies": {
+    "@pulumi/aws": "^2.3.0",
+    "jsdiff": "^1.1.1"
+  }
 }
